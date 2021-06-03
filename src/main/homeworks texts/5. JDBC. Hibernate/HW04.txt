@@ -1,0 +1,2 @@
+»спользу€ Hibernate создать таблички и св€зи между ними по данным сущност€м:
+User, Role, Order, Product, UserDetails, Category, Discount.
