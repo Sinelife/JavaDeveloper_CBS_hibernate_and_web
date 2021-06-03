@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+        <!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://ec2-54-83-8-246.compute-1.amazonaws.com:5432/d4gckf113qmjk1?ssl=true&amp;sslfactory=org.postgresql.ssl.NonValidatingFactory</property>
+        <property name="hibernate.connection.username">puvwmdlrwnpfav</property>
+        <property name="hibernate.connection.password">bcac9988952843913948e5477982acfad1f1f6c9a9655fc401878a1627337778</property>
+        <property name="show_sql">true</property>
+        <property name="hibernate.current_session_context_class">org.hibernate.context.internal.ThreadLocalSessionContext</property>
+        <mapping class="com.cbsystematics.edu.homework05.entities.Student" />
+    </session-factory>
+</hibernate-configuration>
